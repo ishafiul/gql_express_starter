@@ -29,7 +29,7 @@
     "transliteration": "^2.3.5"
   },
   "scripts": {
-    "start": "ts-node --esm src/server.ts",
+    "start": "node build/src/server.js",
     "start:js": "node build/src/server.js",
     "start:prod": "npm run build && node build/src/server.js",
     "start:nodemon": "nodemon src/server.ts",
